@@ -1,0 +1,20 @@
+
+
+.play-icon::before{
+	content: '\f04b';
+	color: var(--text);
+	font-weight: 900;
+	position: absolute;
+}
+.play-icon::after{
+	content: '\10f04b';
+	color: var(--text);
+	font-weight: 900;
+	opacity: 0.5; 
+}
+
+.icon-film::before{
+    content: '\f3a0';
+    color: var(--text);
+    font-weight: 300;
+}
